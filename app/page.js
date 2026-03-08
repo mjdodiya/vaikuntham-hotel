@@ -690,74 +690,26 @@ export default function Home() {
       )}
 
       {/* --- FOOTER --- */}
-      <footer
-        style={{
-          backgroundColor: 'var(--lake-deep)',
-          padding: '10rem 2rem',
-          textAlign: 'center',
-        }}>
-        <h2
-          className="font-cinzel"
-          style={{
-            color: 'var(--dusk-gold)',
-            fontSize: '3.5rem',
-            marginBottom: '4rem',
-            letterSpacing: '0.3em',
-          }}>
-          Vaikuntham
-        </h2>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '4rem',
-            flexWrap: 'wrap',
-            marginBottom: '5rem',
-          }}>
+      <footer className="footer-section">
+        <h2 className="font-cinzel footer-logo">Vaikuntham</h2>
+        <div className="footer-links">
           <a
             href="#"
-            className="font-jost"
-            style={{
-              color: 'white',
-              textDecoration: 'none',
-              fontSize: '0.75rem',
-              letterSpacing: '0.3em',
-              opacity: 0.7,
-            }}>
+            className="font-jost">
             Heritage
           </a>
           <a
             href="#"
-            className="font-jost"
-            style={{
-              color: 'white',
-              textDecoration: 'none',
-              fontSize: '0.75rem',
-              letterSpacing: '0.3em',
-              opacity: 0.7,
-            }}>
+            className="font-jost">
             Gallery
           </a>
           <a
             href="#"
-            className="font-jost"
-            style={{
-              color: 'white',
-              textDecoration: 'none',
-              fontSize: '0.75rem',
-              letterSpacing: '0.3em',
-              opacity: 0.7,
-            }}>
+            className="font-jost">
             Contact
           </a>
         </div>
-        <p
-          className="font-jost"
-          style={{
-            color: 'rgba(255,255,255,0.2)',
-            fontSize: '0.6rem',
-            letterSpacing: '0.1em',
-          }}>
+        <p className="font-jost footer-copyright">
           © 2026 VAIKUNTHAM HERITAGE HOTELS PVT. LTD. UDAIPUR, RAJASTHAN.
         </p>
       </footer>
