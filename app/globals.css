@@ -754,7 +754,9 @@ nav.scrolled {
     padding: 1rem 1.5rem;
   }
   .hero-title {
-    font-size: 3.2rem;
+    /* CHANGED: Fluid sizing prevents the title from breaking the screen width */
+    font-size: clamp(2.2rem, 10vw, 3rem);
+    line-height: 1.15;
   }
   .hero-desc {
     font-size: 1rem;
